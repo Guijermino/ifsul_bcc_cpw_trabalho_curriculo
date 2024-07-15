@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currículo</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <style>
+    
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container {
+      max-width: 908px;
+      margin: 10px auto;
+      padding: 0%;
+    }
+
+    .text-center{
+      font-size: 41px;
+    }
+ 
+    .titulo-abas {
+      font-size: 24px;
+      font-weight: bold;
+      margin-top: 30px;
+      margin-bottom: 15px;
+    }
+
+    .boxmodel {
+      margin-bottom: 10px;
+      padding: 10px;
+      border: 2px solid #ccc;
+      border-radius: 5px;
+      background-color: white;
+    }
+
+    span {
+      font-weight: bold;
+    }
+
+    .boxmodel ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    .formatacao {
+      text-align: justify;
+    }
+
+  </style>
+</head>
+
+<body>
+
+<div class="container">
+  <h1 class="text-center">Currículo</h1>
+
+  <ul class="nav nav-tabs" id="myTab" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active" id="dados-tab" data-toggle="tab" href="#dados" role="tab" aria-controls="dados" aria-selected="true">Dados Cadastrais</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="objetivos-tab" data-toggle="tab" href="#objetivos" role="tab" aria-controls="objetivos" aria-selected="false">Objetivo</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" id="resumo-tab" data-toggle="tab" href="#resumo" role="tab" aria-controls="resumo" aria-selected="false">Resumo</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="formacao-tab" data-toggle="tab" href="#formacao" role="tab" aria-controls="formacao" aria-selected="false">Formação Acadêmica</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="historico-tab" data-toggle="tab" href="#historico" role="tab" aria-controls="historico" aria-selected="false">Histórico Profissional</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" id="cec-tab" data-toggle="tab" href="#cec" role="tab" aria-controls="cec" aria-selected="false">Certificados e Cursos</a>
+    </li>
+  </ul>
+
+  <div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade show active" id="dados" role="tabpanel" aria-labelledby="dados-tab">
+      <div class="titulo-abas">Dados Cadastrais</div>
+      <div class="boxmodel">
+        <span>Nome:</span> Guilherme Guimarães Audibert
+      </div>
+      <div class="boxmodel">
+        <span>Sexualidade:</span> 
+        <input type="checkbox" id="masculino" name="masculino" checked disabled/>
+        <label for="masculino">Masculino</label>
+      </div>
+      <div class="boxmodel">
+        <span>Cidadania:</span> Brasileiro
+      </div>
+      <div class="boxmodel">
+        <span>Estado Civil:</span> Solteiro
+      </div>
+      <div class="boxmodel">
+        <span>Idade:</span> 18 anos
+      </div>
+      <div class="boxmodel">
+        <span>Endereço:</span> Rua Onofre Pires, nº19 - Bairro Lucas Araújo
+      </div>
+      <div class="boxmodel">
+        <span>Telefone:</span> (+55) 54 99280-8292
+      </div>
+      <div class="boxmodel">
+        <span>Email:</span> guiaudibert2006@gmail.com
+      </div>
+      <div class="boxmodel">
+        <a href="https://www.linkedin.com/in/guilherme-guimar%C3%A3es-audibert-89a446305/" target="_blank"><span>Linkedin</span></a> 
+      </div>
+    </div>
+    <div class="tab-pane fade" id="objetivos" role="tabpanel" aria-labelledby="objetivos-tab">
+      <div class="titulo-abas">Objetivo</div>
+      <div class="boxmodel">
+        <p>Estágio em TI.</p>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="resumo" role="tabpanel" aria-labelledby="resumo-tab">
+          <div class="titulo-abas">Resumo</div>
+          <div class="boxmodel">
+          <p class="formatacao">Jovem brasileiro determinado e comprometido, buscando oportunidade como Estagiário
+            para desenvolver habilidades práticas e contribuir efetivamente para o ambiente de
+            trabalho. Com formação acadêmica sólida, concluiu o ensino médio no Colégio Salvatoriano
+            Bom Conselho e atualmente está cursando Ciência da Computação no IFsul - Câmpus
+            Passo Fundo. Possui experiência como Menor Aprendiz na Be8, onde adquiriu
+            conhecimentos essenciais em processos logísticos industriais, incluindo recebimento,
+            armazenagem, movimentação, separação, expedição e distribuição de materiais e produtos,
+            sempre priorizando procedimentos técnicos, ambientais, de qualidade, saúde e segurança
+            no trabalho. Além disso, obteve certificados em cursos relevantes, como Desvendando a
+            Indústria 4.0, Design Thinking e Saúde Mental, demonstrando seu compromisso com o
+            aprendizado contínuo e seu interesse em acompanhar as tendências do mercado. Com
+            habilidades interpessoais e uma mentalidade voltada para o crescimento, está pronto para
+            contribuir de forma positiva em um ambiente de trabalho dinâmico.</p>
+          </div>
+    </div>
+    <div class="tab-pane fade" id="formacao" role="tabpanel" aria-labelledby="formacao-tab">
+      <div class="titulo-abas">Formação Acadêmica</div>
+      <div class="boxmodel">
+        <ul class="formatacao">
+          <li>Ensino médio completo | Colégio Salvatoriano Bom Conselho | Concluído: 2023</li>
+          <li>Cursando ensino superior | IFsul - Câmpus Passo Fundo | Curso: Ciência da Computação | 1º Semestre</li>
+        </ul>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="historico" role="tabpanel" aria-labelledby="historico-tab">
+      <div class="titulo-abas">Histórico Profissional</div>
+      <div class="boxmodel">
+        <ul>
+          <li class="formatacao">
+          <b>Be8 | Operador de Processos Logísticos Industriais</b> <br>
+          <b>Cargo: </b>Menor Aprendiz 
+          <br>
+          <b>Período: </b>2022 - 2023 
+          <br>
+          <b>Atividades: </b>Conhecer, pesquisar e praticar atuações profissionais no ramo da Logística
+          como: recebimento, armazenagem, movimentação, separação, expedição e distribuição de
+          materiais e produtos, em conformidade com os procedimentos técnicos operacionais, de
+          preservação ambiental, de qualidade, de saúde e segurança no trabalho.</li>
+            
+        </ul>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="cec" role="tabpanel" aria-labelledby="cec-tab">
+        <div class="titulo-abas">Certificados e Cursos</div>
+        <div class="boxmodel">
+          <ul>
+            
+            <ol class="formatacao">
+              <li>Desvendando a Indústria 4.0 | SENAI | 2022</li> <br>
+            
+          
+            
+              <li>Meu Dinheiro, Meu Negócio | LivesJARS - Junior Achievement RS | 2022</li> <br>
+            
+         
+            
+              <li>O Futuro do Trabalho | LivesJARS - Junior Achievement RS | 2022</li> <br>
+            
+            
+            
+              <li>Design Thinking | Centro Paula Souza | 2022</li> <br>
+            
+        
+            
+              <li>Saúde Mental | SENAI | 2022</li> <br>
+            
+       
+            
+              <li>Operador de Processos Logísticos Industriais | SENAI - Jorge Barbieux | Período: 1 ano</li>
+            </ol>
+
+          </ul>
+        </div>
+    </div>
+</div>
+
+</body>
+<footer>
+
+</footer>
+</html>
